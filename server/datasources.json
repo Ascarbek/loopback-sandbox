@@ -2,5 +2,14 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "postgre": {
+    "host": "192.168.56.115",
+    "port": 5432,
+    "database": "test",
+    "password": "postgre_admin",
+    "name": "postgre",
+    "connector": "postgresql",
+    "user": "postgre_admin"
   }
 }

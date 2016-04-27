@@ -31,5 +31,15 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "City": {
+    "dataSource": "postgre",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Country": {
+    "dataSource": "postgre",
+    "public": true
   }
 }
